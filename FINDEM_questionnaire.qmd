@@ -8,9 +8,8 @@ format:
     embed-resources: true
 ---
 
-```{r}
+```{r, collapse=TRUE}
 #| label: load-packages
-#| include: false
 
 library(tidyverse)       
 library(haven)           # importing SPSS data files
@@ -28,7 +27,7 @@ library(broom)           # for function augment
 library(lmtest)          # assumption tests
 library(sandwich)        # heteroskedasticity
 library(olsrr)           # outlier analysis
-library(robustbase)      #robust regression
+library(robustbase)      # robust regression
 
 setwd("~/Amber/FINDEM") 
 ```
