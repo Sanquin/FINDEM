@@ -11,3 +11,12 @@ local
 /results
 
 
+.pdf
+.jpg
+.png
+.eps
+
+*.pdf
+*.jpg
+*.png
+*.eps
